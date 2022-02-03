@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(#b5e48c, #457b9d) fixed;
+	 -moz-user-select: none;
 }
 
 
@@ -23,8 +24,8 @@ body {
 {
 	height:10%;
 	width: 10%;
-	max-width:300px;
-	min-width:200px;
+	max-width:200px;
+	min-width:150px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 	background: lightblue;
 	/*transform: rotate(360deg);*/
@@ -52,8 +53,8 @@ body {
 {
 	height:10%;
 	width: 10%;
-	max-width:300px;
-	min-width:200px;
+	max-width:200px;
+	min-width:150px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 	background: lightblue;
 	margin:2%;
@@ -82,8 +83,8 @@ body {
 {
 	height:10%;
 	width: 10%;
-	max-width:300px;
-	min-width:200px;
+	max-width:200px;
+	min-width:150px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 	background: lightblue;
 	margin:2%;
@@ -111,8 +112,8 @@ body {
 {
 	height:10%;
 	width: 10%;
-	max-width:300px;
-	min-width:200px;
+	max-width:200px;
+	min-width:150px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 	background: lightblue;
 	margin:2%;
@@ -140,8 +141,8 @@ body {
 {
 	height:10%;
 	width: 10%;
-	max-width:300px;
-	min-width:200px;
+	max-width:200px;
+	min-width:150px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 	background: lightblue;
 	margin:2%;
@@ -280,7 +281,7 @@ h2
 	font-size: 55px;
 }
 
-@media screen and (max-width:4000px)
+@media screen and (max-width:10000px)
 {
 	section
 {
@@ -496,8 +497,8 @@ h2
 {
 	height:10%;
 	width: 10%;
-	max-width:4000px;
-	min-width:1050px;
+	max-width:1080px;
+	min-width:540px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 	background: lightblue;
 	transition: 1s;
@@ -518,14 +519,18 @@ h2
 	padding: 1rem;
 }
 
-@media screen and (max-width:1100px)
+@media screen and (max-width:540px)
 {
 .scrolling-wrapper
 {
 	overflow-x:scroll;
 	overflow-y:hidden;
 	white-space:nowrap;
+	scrollbar-color: rebeccapurple green;
+	scrollbar-width: thin;  
+	padding:5%;
 }
+
 .tableauInformation
 {
 	height:10%;
@@ -538,6 +543,7 @@ h2
 	margin:2%;
 	filter: saturate(10%);
 	border-radius: 10px;
+	padding:1%;
 }
 
 .tableauInformation p
@@ -555,6 +561,11 @@ h2
 .carte
 {
 	margin-left:75%;
+}
+
+.carte:hover
+{
+	margin-left:90%;
 }
 }
 
