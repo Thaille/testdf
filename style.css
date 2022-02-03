@@ -3,6 +3,8 @@ body {
 	 -moz-user-select: none;
 }
 
+
+
 .carte
 {
 	height:10%;
@@ -190,6 +192,22 @@ body {
 }
 
 .flecheRetour img
+{
+	width:100%;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.lienFB img
+{
+	width:100%;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.lienTW img
 {
 	width:100%;
 	height: auto;
@@ -435,11 +453,19 @@ h2
 
 /*message qui defile*/
 .marquee-rtl
-{	max-width: 30em;
-	margin: 1em auto 2em;
+{	max-width: 90em;
+	margin: 2em auto 2em;
 	border: 10px solid #F0F0FF;
 	overflow: hidden;
-	box-shadow: 0 .25em .5em #CCC, insert 0 0 1em .25em #CCC;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;	
+	background: lightgreen;
+}
+
+.marquee-rtl h3
+{	
+		font-size: 15px;
+		color:black;
 }
 
 /* le bloc défilant */
@@ -469,7 +495,7 @@ h2
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 	background: lightblue;
 	transition: 1s;
-	margin-left:75%;
+	margin-left:10%;
 	filter: saturate(10%);
 	border-radius: 10px;	
 	display: flex;
@@ -485,7 +511,69 @@ h2
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 	background: lightblue;
 	transform: rotate(360deg);
-	margin-left:74%;
+	margin-left:10%;
+	filter: saturate(100%);
+	border-radius: 10px;
+	font-size: 2rem;
+}
+
+.lienFB
+{
+	height:10%;
+	width: 10%;
+	max-width:50px;
+	min-width:50px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	background: lightblue;
+	transition: 1s;
+	margin-left:2%;
+	filter: saturate(10%);
+	border-radius: 10px;	
+	display: flex;
+	justify-content: center;
+}
+
+.lienFB:hover
+{
+	height:10%;
+	width: 10%;
+	max-width:70px;
+	min-width:70px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	background: lightblue;
+	transform: rotate(360deg);
+	margin-left:2%;
+	filter: saturate(100%);
+	border-radius: 10px;
+	font-size: 2rem;
+}
+
+.lienTW
+{
+	height:10%;
+	width: 10%;
+	max-width:50px;
+	min-width:50px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	background: lightblue;
+	transition: 1s;
+
+	filter: saturate(10%);
+	border-radius: 10px;	
+	display: flex;
+	justify-content: center;
+}
+
+.lienTW:hover
+{
+	height:10%;
+	width: 10%;
+	max-width:70px;
+	min-width:70px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	background: lightblue;
+	transform: rotate(360deg);
+
 	filter: saturate(100%);
 	border-radius: 10px;
 	font-size: 2rem;
@@ -566,3 +654,12 @@ h2
 	margin-left:90%;
 }
 }
+
+
+
+
+
+
+
+
+
