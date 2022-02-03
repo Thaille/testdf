@@ -3,10 +3,6 @@ body {
 	 -moz-user-select: none;
 }
 
-a{
-	transition-delay: 10s;
-}
-
 
 
 .carte
@@ -212,6 +208,22 @@ a{
 }
 
 .lienTW img
+{
+	width:100%;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.lienCV img
+{
+	width:100%;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.lienCV img
 {
 	width:100%;
 	height: auto;
@@ -530,7 +542,7 @@ h2
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 	background: lightblue;
 	transition: 1s;
-	margin-left:2%;
+	margin-left:4%;
 	filter: saturate(10%);
 	border-radius: 10px;	
 	display: flex;
@@ -546,7 +558,7 @@ h2
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 	background: lightblue;
 	transform: rotate(360deg);
-	margin-left:2%;
+	margin-left:4%;
 	filter: saturate(100%);
 	border-radius: 10px;
 	font-size: 2rem;
@@ -578,6 +590,37 @@ h2
 	background: lightblue;
 	transform: rotate(360deg);
 
+	filter: saturate(100%);
+	border-radius: 10px;
+	font-size: 2rem;
+}
+
+.lienCV
+{
+	height:10%;
+	width: 10%;
+	max-width:50px;
+	min-width:50px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	background: lightblue;
+	transition: 1s;
+	margin-right:4%;
+	filter: saturate(10%);
+	border-radius: 10px;	
+	display: flex;
+	justify-content: center;
+}
+
+.lienCV:hover
+{
+	height:10%;
+	width: 10%;
+	max-width:70px;
+	min-width:70px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	background: lightblue;
+	transform: rotate(360deg);
+	margin-right:4%;
 	filter: saturate(100%);
 	border-radius: 10px;
 	font-size: 2rem;
@@ -619,6 +662,7 @@ h2
 	scrollbar-color: rebeccapurple green;
 	scrollbar-width: thin;  
 	padding:5%;
+	margin-bottom:10%;
 }
 
 .tableauInformation
